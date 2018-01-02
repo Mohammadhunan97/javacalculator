@@ -1,4 +1,8 @@
+
 import java.util.*;
+import javax.swing.*;
+import java.awt.*;
+import javafx.*;
 
 public class Main{
 	public static void main(String args[]){
@@ -8,5 +12,7 @@ public class Main{
 
 		Calculator myCalc = new Calculator(n1,operationSymbol,n2);
 
+
+		Gui myGui = new Gui();
 	}
 }
